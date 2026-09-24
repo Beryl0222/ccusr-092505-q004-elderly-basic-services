@@ -1,0 +1,5 @@
+[project]
+name = "elderly-basic-services"
+version = "0.1.0"
+description = "基本养老服务资格网领域契约"
+requires-python = ">=3.11"

@@ -19,20 +19,42 @@
     "event_type": {
       "type": "string",
       "enum": [
+        "JURISDICTION_REGISTERED",
+        "CATALOG_PUBLISHED",
+        "RESPONSIBILITY_ASSIGNED",
+        "FACILITY_REGISTERED",
+        "FACILITY_CLOSED",
+        "CAREGIVER_REGISTERED",
+        "ELDER_REGISTERED",
+        "CONSENT_GRANTED",
+        "CONSENT_WITHDRAWN",
+        "ELDER_RELOCATED",
         "NEED_ASSESSED",
         "ENTITLEMENT_GRANTED",
+        "APPOINTMENT_SCHEDULED",
+        "APPOINTMENT_REASSIGNED",
+        "APPOINTMENT_CANCELLED",
         "VISIT_ASSIGNED",
+        "SERVICE_FULFILLED",
         "RISK_ESCALATED",
-        "SERVICE_FULFILLED"
+        "EMERGENCY_REFERRAL",
+        "MATERIALS_COMPLETED",
+        "ESCALATION_RESOLVED",
+        "REPORT_CONFLICT"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
+        "jurisdiction",
+        "service_catalog",
+        "care_facility",
+        "caregiver",
         "elder_profile",
         "service_entitlement",
-        "care_facility",
-        "visit_record"
+        "appointment",
+        "visit_record",
+        "report_conflict"
       ]
     },
     "aggregate_id": {
@@ -50,6 +72,9 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "data": {
+      "type": "object"
     }
   },
   "additionalProperties": true

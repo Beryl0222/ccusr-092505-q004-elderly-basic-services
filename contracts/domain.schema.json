@@ -23,7 +23,29 @@
         "ENTITLEMENT_GRANTED",
         "VISIT_ASSIGNED",
         "RISK_ESCALATED",
-        "SERVICE_FULFILLED"
+        "SERVICE_FULFILLED",
+        "PAPERWORK_COMPLETED",
+        "POLICY_PUBLISHED",
+        "ELDER_REGISTERED",
+        "ELDER_RELOCATED",
+        "CONSENT_GRANTED",
+        "CONSENT_WITHDRAWN",
+        "ENTITLEMENT_REVOKED",
+        "FACILITY_REGISTERED",
+        "FACILITY_SUSPENDED",
+        "FACILITY_RESUMED",
+        "CAREGIVER_REGISTERED",
+        "SERVICE_REQUESTED",
+        "APPOINTMENT_SCHEDULED",
+        "APPOINTMENT_RESCHEDULED",
+        "APPOINTMENT_CANCELLED",
+        "EMERGENCY_TRIGGERED",
+        "REFERRAL_OPENED",
+        "REFERRAL_CLOSED",
+        "SUBMISSION_ACCEPTED",
+        "SUBMISSION_DUPLICATE_RETURNED",
+        "REVIEW_OPENED",
+        "REVIEW_RESOLVED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +54,13 @@
         "elder_profile",
         "service_entitlement",
         "care_facility",
-        "visit_record"
+        "visit_record",
+        "policy_catalog",
+        "service_catalog",
+        "appointment",
+        "referral_case",
+        "provider_submission",
+        "review_case"
       ]
     },
     "aggregate_id": {
